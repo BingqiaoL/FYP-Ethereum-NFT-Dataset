@@ -31,8 +31,8 @@ def partition(input_file_path, output_path, from_timestamp, step):
     
 if __name__ == '__main__':
     partition(
-        '/data/origin/transactions_20210818_20210929.csv', 
-        'data/partitioned',
+        'origin/transactions.csv', 
+        'partitioned',
         1629255607,
         86400,
     )

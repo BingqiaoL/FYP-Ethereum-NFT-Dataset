@@ -67,8 +67,8 @@ def generate_single(input_path, output_path, from_timestamp, step, final_ts):
 
 if __name__ == '__main__':
     generate_multi(
-        'data/partitioned', 
-        'data/processed',
+        'partitioned', 
+        'processed',
         1632798007, 
         1632798007,
         86400
