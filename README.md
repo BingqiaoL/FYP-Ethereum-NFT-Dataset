@@ -6,7 +6,6 @@ Sample dataset of the Ethereum and NFT transaction data.
 * [NFT](#NFT)
 
 # Ethereum
-./Ethereum/:
   - original/
     - transactions_sample.csv: transaction data crawled using Ethereum-ETL https://ethereum-etl.readthedocs.io/en/latest/
   - partitioned/
@@ -14,7 +13,6 @@ Sample dataset of the Ethereum and NFT transaction data.
     - el_sample.csv and map_sample.csv: edge lists and maps to contruct graphs
 
 # NFT
-./NFT/: 
   - original/
     - log_sample.csv: log information crawled using Ethereum-ETL 
   - processed/
